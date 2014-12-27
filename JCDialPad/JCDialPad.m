@@ -78,6 +78,7 @@
     self.digitsTextField.textColor = [self.mainColor colorWithAlphaComponent:0.9];
     
     self.formatTextToPhoneNumber = YES;
+    self.formatTextRegionCode = @"US";
     self.rawText = @"";
 }
 
@@ -168,7 +169,7 @@
 
 - (void)setRawText:(NSString *)rawText
 {
-    self.numFormatter = [[NBAsYouTypeFormatter alloc] initWithRegionCode:@"US"];
+    self.numFormatter = [[NBAsYouTypeFormatter alloc] initWithRegionCode:self.formatTextRegionCode];
     _rawText = @"";
     self.digitsTextField.text = @"";
     for (int i = 0; i < rawText.length; ++i) {

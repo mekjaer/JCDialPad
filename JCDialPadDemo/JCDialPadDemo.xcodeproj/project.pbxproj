@@ -1,490 +1,1083 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		3E81D27AE8EF4718A255C2D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C029B1E7A346D2ADBE703D /* libPods.a */; };
-		86F9242C1936B772007C3772 /* JCDialPadDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F9242B1936B772007C3772 /* JCDialPadDemoAppDelegate.m */; };
-		86F924301936B7A6007C3772 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F9242E1936B7A6007C3772 /* ExampleViewController.m */; };
-		86F924311936B7A6007C3772 /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F9242F1936B7A6007C3772 /* ExampleViewController.xib */; };
-		86F924361936B7E6007C3772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F924341936B7E6007C3772 /* main.m */; };
-		86F924381937A9AE007C3772 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86F924371937A9AE007C3772 /* Default-568h@2x.png */; };
-		86F9243A1937AFF7007C3772 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F924391937AFF7007C3772 /* Images.xcassets */; };
-		9C79B0D8188A184A00D465D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C79B0D7188A184A00D465D8 /* Foundation.framework */; };
-		9C79B0DA188A184A00D465D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C79B0D9188A184A00D465D8 /* CoreGraphics.framework */; };
-		9C79B0DC188A184A00D465D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C79B0DB188A184A00D465D8 /* UIKit.framework */; };
-		9C79B18B188A1A7100D465D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C79B0F0188A184A00D465D8 /* XCTest.framework */; };
-		9C79B18C188A1A7100D465D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C79B0D7188A184A00D465D8 /* Foundation.framework */; };
-		9C79B18D188A1A7100D465D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C79B0DB188A184A00D465D8 /* UIKit.framework */; };
-		9C9F7AB6188A40A1004B0B6D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9F7AB5188A40A1004B0B6D /* QuartzCore.framework */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9C79B197188A1A7100D465D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9C79B0CC188A184A00D465D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C79B0D3188A184A00D465D8;
-			remoteInfo = JCDialPadDemo;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		22C029B1E7A346D2ADBE703D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		86F9242A1936B772007C3772 /* JCDialPadDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JCDialPadDemoAppDelegate.h; path = "JCDialPadDemo/Application Bootstrap/JCDialPadDemoAppDelegate.h"; sourceTree = SOURCE_ROOT; };
-		86F9242B1936B772007C3772 /* JCDialPadDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCDialPadDemoAppDelegate.m; path = "JCDialPadDemo/Application Bootstrap/JCDialPadDemoAppDelegate.m"; sourceTree = SOURCE_ROOT; };
-		86F9242D1936B7A6007C3772 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExampleViewController.h; path = "JCDialPadDemo/Your Modules/ExampleViewController.h"; sourceTree = SOURCE_ROOT; };
-		86F9242E1936B7A6007C3772 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExampleViewController.m; path = "JCDialPadDemo/Your Modules/ExampleViewController.m"; sourceTree = SOURCE_ROOT; };
-		86F9242F1936B7A6007C3772 /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExampleViewController.xib; path = "JCDialPadDemo/Your Modules/ExampleViewController.xib"; sourceTree = SOURCE_ROOT; };
-		86F924321936B7E6007C3772 /* JCDialPadDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JCDialPadDemo-Info.plist"; path = "JCDialPadDemo/JCDialPadDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
-		86F924331936B7E6007C3772 /* JCDialPadDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JCDialPadDemo-Prefix.pch"; path = "JCDialPadDemo/JCDialPadDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		86F924341936B7E6007C3772 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = JCDialPadDemo/main.m; sourceTree = SOURCE_ROOT; };
-		86F924371937A9AE007C3772 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		86F924391937AFF7007C3772 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JCDialPadDemo/Images.xcassets; sourceTree = "<group>"; };
-		9C79B0D4188A184A00D465D8 /* JCDialPadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCDialPadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C79B0D7188A184A00D465D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9C79B0D9188A184A00D465D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9C79B0DB188A184A00D465D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9C79B0F0188A184A00D465D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		9C79B18A188A1A7100D465D8 /* JCDialPadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCDialPadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C9F7AB5188A40A1004B0B6D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		C8B96AFF58F24F6EBCC5EB9A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		9C79B0D1188A184A00D465D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C9F7AB6188A40A1004B0B6D /* QuartzCore.framework in Frameworks */,
-				9C79B0DA188A184A00D465D8 /* CoreGraphics.framework in Frameworks */,
-				9C79B0DC188A184A00D465D8 /* UIKit.framework in Frameworks */,
-				9C79B0D8188A184A00D465D8 /* Foundation.framework in Frameworks */,
-				3E81D27AE8EF4718A255C2D3 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C79B187188A1A7100D465D8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C79B18B188A1A7100D465D8 /* XCTest.framework in Frameworks */,
-				9C79B18D188A1A7100D465D8 /* UIKit.framework in Frameworks */,
-				9C79B18C188A1A7100D465D8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		9C79B0CB188A184A00D465D8 = {
-			isa = PBXGroup;
-			children = (
-				86F924371937A9AE007C3772 /* Default-568h@2x.png */,
-				86F924391937AFF7007C3772 /* Images.xcassets */,
-				9C79B0DD188A184A00D465D8 /* JCDialPadDemo */,
-				9C79B0D6188A184A00D465D8 /* Frameworks */,
-				9C79B0D5188A184A00D465D8 /* Products */,
-				C8B96AFF58F24F6EBCC5EB9A /* Pods.xcconfig */,
-			);
-			sourceTree = "<group>";
-		};
-		9C79B0D5188A184A00D465D8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9C79B0D4188A184A00D465D8 /* JCDialPadDemo.app */,
-				9C79B18A188A1A7100D465D8 /* JCDialPadDemoTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9C79B0D6188A184A00D465D8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9C9F7AB5188A40A1004B0B6D /* QuartzCore.framework */,
-				9C79B0D7188A184A00D465D8 /* Foundation.framework */,
-				9C79B0D9188A184A00D465D8 /* CoreGraphics.framework */,
-				9C79B0DB188A184A00D465D8 /* UIKit.framework */,
-				9C79B0F0188A184A00D465D8 /* XCTest.framework */,
-				22C029B1E7A346D2ADBE703D /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9C79B0DD188A184A00D465D8 /* JCDialPadDemo */ = {
-			isa = PBXGroup;
-			children = (
-				9C79B106188A18A100D465D8 /* Application Bootstrap */,
-				9C79B109188A18A100D465D8 /* Your Modules */,
-				9C79B0DE188A184A00D465D8 /* Supporting Files */,
-			);
-			name = JCDialPadDemo;
-			path = JCDialPadDemo;
-			sourceTree = "<group>";
-		};
-		9C79B0DE188A184A00D465D8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				86F924321936B7E6007C3772 /* JCDialPadDemo-Info.plist */,
-				86F924331936B7E6007C3772 /* JCDialPadDemo-Prefix.pch */,
-				86F924341936B7E6007C3772 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9C79B106188A18A100D465D8 /* Application Bootstrap */ = {
-			isa = PBXGroup;
-			children = (
-				86F9242A1936B772007C3772 /* JCDialPadDemoAppDelegate.h */,
-				86F9242B1936B772007C3772 /* JCDialPadDemoAppDelegate.m */,
-			);
-			path = "Application Bootstrap";
-			sourceTree = "<group>";
-		};
-		9C79B109188A18A100D465D8 /* Your Modules */ = {
-			isa = PBXGroup;
-			children = (
-				86F9242D1936B7A6007C3772 /* ExampleViewController.h */,
-				86F9242E1936B7A6007C3772 /* ExampleViewController.m */,
-				86F9242F1936B7A6007C3772 /* ExampleViewController.xib */,
-			);
-			path = "Your Modules";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		9C79B0D3188A184A00D465D8 /* JCDialPadDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C79B100188A184A00D465D8 /* Build configuration list for PBXNativeTarget "JCDialPadDemo" */;
-			buildPhases = (
-				8AA3BADFC8B54D8790496D3E /* Check Pods Manifest.lock */,
-				9C79B0D0188A184A00D465D8 /* Sources */,
-				9C79B0D1188A184A00D465D8 /* Frameworks */,
-				9C79B0D2188A184A00D465D8 /* Resources */,
-				EFC68C4DEACE4A94A3BA79B3 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JCDialPadDemo;
-			productName = JCDialPadDemo;
-			productReference = 9C79B0D4188A184A00D465D8 /* JCDialPadDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9C79B189188A1A7100D465D8 /* JCDialPadDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C79B199188A1A7100D465D8 /* Build configuration list for PBXNativeTarget "JCDialPadDemoTests" */;
-			buildPhases = (
-				9C79B186188A1A7100D465D8 /* Sources */,
-				9C79B187188A1A7100D465D8 /* Frameworks */,
-				9C79B188188A1A7100D465D8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9C79B198188A1A7100D465D8 /* PBXTargetDependency */,
-			);
-			name = JCDialPadDemoTests;
-			productName = "JCDialPadDemo Tests";
-			productReference = 9C79B18A188A1A7100D465D8 /* JCDialPadDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		9C79B0CC188A184A00D465D8 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = AB;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Aron Bury";
-				TargetAttributes = {
-					9C79B189188A1A7100D465D8 = {
-						TestTargetID = 9C79B0D3188A184A00D465D8;
-					};
-				};
-			};
-			buildConfigurationList = 9C79B0CF188A184A00D465D8 /* Build configuration list for PBXProject "JCDialPadDemo" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 9C79B0CB188A184A00D465D8;
-			productRefGroup = 9C79B0D5188A184A00D465D8 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				9C79B0D3188A184A00D465D8 /* JCDialPadDemo */,
-				9C79B189188A1A7100D465D8 /* JCDialPadDemoTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		9C79B0D2188A184A00D465D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86F9243A1937AFF7007C3772 /* Images.xcassets in Resources */,
-				86F924381937A9AE007C3772 /* Default-568h@2x.png in Resources */,
-				86F924311936B7A6007C3772 /* ExampleViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C79B188188A1A7100D465D8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8AA3BADFC8B54D8790496D3E /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		EFC68C4DEACE4A94A3BA79B3 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		9C79B0D0188A184A00D465D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86F924301936B7A6007C3772 /* ExampleViewController.m in Sources */,
-				86F924361936B7E6007C3772 /* main.m in Sources */,
-				86F9242C1936B772007C3772 /* JCDialPadDemoAppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C79B186188A1A7100D465D8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9C79B198188A1A7100D465D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9C79B0D3188A184A00D465D8 /* JCDialPadDemo */;
-			targetProxy = 9C79B197188A1A7100D465D8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		9C79B0FE188A184A00D465D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9C79B0FF188A184A00D465D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9C79B101188A184A00D465D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8B96AFF58F24F6EBCC5EB9A /* Pods.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JCDialPadDemo/JCDialPadDemo-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/JCDialPadDemo/JCDialPadDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = JCDialPadDemo;
-				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		9C79B102188A184A00D465D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8B96AFF58F24F6EBCC5EB9A /* Pods.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JCDialPadDemo/JCDialPadDemo-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/JCDialPadDemo/JCDialPadDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = JCDialPadDemo;
-				PROVISIONING_PROFILE = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		9C79B19A188A1A7100D465D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JCDialPadDemo.app/JCDialPadDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JCDialPadDemo Tests/JCDialPadDemo Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "JCDialPadDemo Tests/JCDialPadDemo Tests-Info.plist";
-				PRODUCT_NAME = JCDialPadDemoTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		9C79B19B188A1A7100D465D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JCDialPadDemo.app/JCDialPadDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JCDialPadDemo Tests/JCDialPadDemo Tests-Prefix.pch";
-				INFOPLIST_FILE = "JCDialPadDemo Tests/JCDialPadDemo Tests-Info.plist";
-				PRODUCT_NAME = JCDialPadDemoTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		9C79B0CF188A184A00D465D8 /* Build configuration list for PBXProject "JCDialPadDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C79B0FE188A184A00D465D8 /* Debug */,
-				9C79B0FF188A184A00D465D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C79B100188A184A00D465D8 /* Build configuration list for PBXNativeTarget "JCDialPadDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C79B101188A184A00D465D8 /* Debug */,
-				9C79B102188A184A00D465D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C79B199188A1A7100D465D8 /* Build configuration list for PBXNativeTarget "JCDialPadDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9C79B19A188A1A7100D465D8 /* Debug */,
-				9C79B19B188A1A7100D465D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 9C79B0CC188A184A00D465D8 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>060DF8335E334720C9EDE360</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>22C029B1E7A346D2ADBE703D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>3E81D27AE8EF4718A255C2D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>22C029B1E7A346D2ADBE703D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>57AE2E1C9E4CA3C76DA4D189</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86F9242A1936B772007C3772</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JCDialPadDemoAppDelegate.h</string>
+			<key>path</key>
+			<string>JCDialPadDemo/Application Bootstrap/JCDialPadDemoAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86F9242B1936B772007C3772</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>JCDialPadDemoAppDelegate.m</string>
+			<key>path</key>
+			<string>JCDialPadDemo/Application Bootstrap/JCDialPadDemoAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86F9242C1936B772007C3772</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86F9242B1936B772007C3772</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>86F9242D1936B7A6007C3772</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ExampleViewController.h</string>
+			<key>path</key>
+			<string>JCDialPadDemo/Your Modules/ExampleViewController.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86F9242E1936B7A6007C3772</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ExampleViewController.m</string>
+			<key>path</key>
+			<string>JCDialPadDemo/Your Modules/ExampleViewController.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86F9242F1936B7A6007C3772</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>ExampleViewController.xib</string>
+			<key>path</key>
+			<string>JCDialPadDemo/Your Modules/ExampleViewController.xib</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86F924301936B7A6007C3772</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86F9242E1936B7A6007C3772</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>86F924311936B7A6007C3772</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86F9242F1936B7A6007C3772</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>86F924321936B7E6007C3772</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>JCDialPadDemo-Info.plist</string>
+			<key>path</key>
+			<string>JCDialPadDemo/JCDialPadDemo-Info.plist</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86F924331936B7E6007C3772</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>JCDialPadDemo-Prefix.pch</string>
+			<key>path</key>
+			<string>JCDialPadDemo/JCDialPadDemo-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86F924341936B7E6007C3772</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>main.m</string>
+			<key>path</key>
+			<string>JCDialPadDemo/main.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>86F924361936B7E6007C3772</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86F924341936B7E6007C3772</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>86F924371937A9AE007C3772</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default-568h@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86F924381937A9AE007C3772</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86F924371937A9AE007C3772</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>86F924391937AFF7007C3772</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>name</key>
+			<string>Images.xcassets</string>
+			<key>path</key>
+			<string>JCDialPadDemo/Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86F9243A1937AFF7007C3772</key>
+		<dict>
+			<key>fileRef</key>
+			<string>86F924391937AFF7007C3772</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8AA3BADFC8B54D8790496D3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>974BEEEDE4A1C3920E8BD418</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>060DF8335E334720C9EDE360</string>
+				<string>57AE2E1C9E4CA3C76DA4D189</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C79B0CB188A184A00D465D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>86F924371937A9AE007C3772</string>
+				<string>86F924391937AFF7007C3772</string>
+				<string>9C79B0DD188A184A00D465D8</string>
+				<string>9C79B0D6188A184A00D465D8</string>
+				<string>9C79B0D5188A184A00D465D8</string>
+				<string>974BEEEDE4A1C3920E8BD418</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C79B0CC188A184A00D465D8</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>CLASSPREFIX</key>
+				<string>AB</string>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Aron Bury</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>9C79B189188A1A7100D465D8</key>
+					<dict>
+						<key>TestTargetID</key>
+						<string>9C79B0D3188A184A00D465D8</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>9C79B0CF188A184A00D465D8</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>9C79B0CB188A184A00D465D8</string>
+			<key>productRefGroup</key>
+			<string>9C79B0D5188A184A00D465D8</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>9C79B0D3188A184A00D465D8</string>
+				<string>9C79B189188A1A7100D465D8</string>
+			</array>
+		</dict>
+		<key>9C79B0CF188A184A00D465D8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9C79B0FE188A184A00D465D8</string>
+				<string>9C79B0FF188A184A00D465D8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9C79B0D0188A184A00D465D8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>86F924301936B7A6007C3772</string>
+				<string>86F924361936B7E6007C3772</string>
+				<string>86F9242C1936B772007C3772</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9C79B0D1188A184A00D465D8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9C9F7AB6188A40A1004B0B6D</string>
+				<string>9C79B0DA188A184A00D465D8</string>
+				<string>9C79B0DC188A184A00D465D8</string>
+				<string>9C79B0D8188A184A00D465D8</string>
+				<string>3E81D27AE8EF4718A255C2D3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9C79B0D2188A184A00D465D8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>86F9243A1937AFF7007C3772</string>
+				<string>86F924381937A9AE007C3772</string>
+				<string>86F924311936B7A6007C3772</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9C79B0D3188A184A00D465D8</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9C79B100188A184A00D465D8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8AA3BADFC8B54D8790496D3E</string>
+				<string>9C79B0D0188A184A00D465D8</string>
+				<string>9C79B0D1188A184A00D465D8</string>
+				<string>9C79B0D2188A184A00D465D8</string>
+				<string>EFC68C4DEACE4A94A3BA79B3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>JCDialPadDemo</string>
+			<key>productName</key>
+			<string>JCDialPadDemo</string>
+			<key>productReference</key>
+			<string>9C79B0D4188A184A00D465D8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>9C79B0D4188A184A00D465D8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>JCDialPadDemo.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9C79B0D5188A184A00D465D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9C79B0D4188A184A00D465D8</string>
+				<string>9C79B18A188A1A7100D465D8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C79B0D6188A184A00D465D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9C9F7AB5188A40A1004B0B6D</string>
+				<string>9C79B0D7188A184A00D465D8</string>
+				<string>9C79B0D9188A184A00D465D8</string>
+				<string>9C79B0DB188A184A00D465D8</string>
+				<string>9C79B0F0188A184A00D465D8</string>
+				<string>22C029B1E7A346D2ADBE703D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C79B0D7188A184A00D465D8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9C79B0D8188A184A00D465D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C79B0D7188A184A00D465D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C79B0D9188A184A00D465D8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9C79B0DA188A184A00D465D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C79B0D9188A184A00D465D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C79B0DB188A184A00D465D8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9C79B0DC188A184A00D465D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C79B0DB188A184A00D465D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C79B0DD188A184A00D465D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9C79B106188A18A100D465D8</string>
+				<string>9C79B109188A18A100D465D8</string>
+				<string>9C79B0DE188A184A00D465D8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>JCDialPadDemo</string>
+			<key>path</key>
+			<string>JCDialPadDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C79B0DE188A184A00D465D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>86F924321936B7E6007C3772</string>
+				<string>86F924331936B7E6007C3772</string>
+				<string>86F924341936B7E6007C3772</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C79B0F0188A184A00D465D8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>XCTest.framework</string>
+			<key>path</key>
+			<string>Library/Frameworks/XCTest.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>9C79B0FE188A184A00D465D8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9C79B0FF188A184A00D465D8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.0</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9C79B100188A184A00D465D8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9C79B101188A184A00D465D8</string>
+				<string>9C79B102188A184A00D465D8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9C79B101188A184A00D465D8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>060DF8335E334720C9EDE360</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>JCDialPadDemo/JCDialPadDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>$(SRCROOT)/JCDialPadDemo/JCDialPadDemo-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>JCDialPadDemo</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9C79B102188A184A00D465D8</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>57AE2E1C9E4CA3C76DA4D189</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Distribution</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Distribution</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>JCDialPadDemo/JCDialPadDemo-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>$(SRCROOT)/JCDialPadDemo/JCDialPadDemo-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>JCDialPadDemo</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9C79B106188A18A100D465D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>86F9242A1936B772007C3772</string>
+				<string>86F9242B1936B772007C3772</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Application Bootstrap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C79B109188A18A100D465D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>86F9242D1936B7A6007C3772</string>
+				<string>86F9242E1936B7A6007C3772</string>
+				<string>86F9242F1936B7A6007C3772</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Your Modules</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C79B186188A1A7100D465D8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9C79B187188A1A7100D465D8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9C79B18B188A1A7100D465D8</string>
+				<string>9C79B18D188A1A7100D465D8</string>
+				<string>9C79B18C188A1A7100D465D8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9C79B188188A1A7100D465D8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9C79B189188A1A7100D465D8</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9C79B199188A1A7100D465D8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>9C79B186188A1A7100D465D8</string>
+				<string>9C79B187188A1A7100D465D8</string>
+				<string>9C79B188188A1A7100D465D8</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>9C79B198188A1A7100D465D8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>JCDialPadDemoTests</string>
+			<key>productName</key>
+			<string>JCDialPadDemo Tests</string>
+			<key>productReference</key>
+			<string>9C79B18A188A1A7100D465D8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>9C79B18A188A1A7100D465D8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>JCDialPadDemoTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9C79B18B188A1A7100D465D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C79B0F0188A184A00D465D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C79B18C188A1A7100D465D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C79B0D7188A184A00D465D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C79B18D188A1A7100D465D8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C79B0DB188A184A00D465D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9C79B197188A1A7100D465D8</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>9C79B0CC188A184A00D465D8</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>9C79B0D3188A184A00D465D8</string>
+			<key>remoteInfo</key>
+			<string>JCDialPadDemo</string>
+		</dict>
+		<key>9C79B198188A1A7100D465D8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>9C79B0D3188A184A00D465D8</string>
+			<key>targetProxy</key>
+			<string>9C79B197188A1A7100D465D8</string>
+		</dict>
+		<key>9C79B199188A1A7100D465D8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9C79B19A188A1A7100D465D8</string>
+				<string>9C79B19B188A1A7100D465D8</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9C79B19A188A1A7100D465D8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/JCDialPadDemo.app/JCDialPadDemo</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>JCDialPadDemo Tests/JCDialPadDemo Tests-Prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>JCDialPadDemo Tests/JCDialPadDemo Tests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>JCDialPadDemoTests</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9C79B19B188A1A7100D465D8</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/JCDialPadDemo.app/JCDialPadDemo</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+				</array>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>JCDialPadDemo Tests/JCDialPadDemo Tests-Prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>JCDialPadDemo Tests/JCDialPadDemo Tests-Info.plist</string>
+				<key>PRODUCT_NAME</key>
+				<string>JCDialPadDemoTests</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>xctest</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9C9F7AB5188A40A1004B0B6D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>9C9F7AB6188A40A1004B0B6D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C9F7AB5188A40A1004B0B6D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFC68C4DEACE4A94A3BA79B3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>9C79B0CC188A184A00D465D8</string>
+</dict>
+</plist>
